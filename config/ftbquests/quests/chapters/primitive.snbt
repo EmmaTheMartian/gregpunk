@@ -1,0 +1,553 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "primitive"
+	group: "430ECBC494532E2E"
+	icon: "minecraft:copper_ingot"
+	id: "138318D30BC7ECF9"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Hello industrialist, we are &9Gregpunk Indistries(TM)&r. We hear that you are interested in taking up our offer regarding trading your existence for monetary value. No? Well you don't have a choice anymore. Get to industrializing."]
+			id: "773C79EA2A0BA505"
+			subtitle: "Good Luck >:D"
+			tasks: [{
+				id: "1EBB4102EF96D6FA"
+				title: "Welcome"
+				type: "checkmark"
+			}]
+			title: "Hello, World!"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: false
+			dependencies: ["773C79EA2A0BA505"]
+			description: [
+				"In &3The Shop&r, you can exchange coins for common resources. You can open it with the money bag icon at the top left of your inventory."
+				""
+				"Coins can be obtained either by crafting them in a &cForming Press&r or as quest rewards. Coins can be converted into each other too, so crafting higher tier coins can yield many lower tier coins."
+				""
+				"Some items are locked behind other quests in the progression. You can click the &9View Dependencies&r button at the top left of a quest to see these."
+			]
+			id: "2EE8C6C4857D08F1"
+			rewards: [{
+				id: "7A02B01C0EEF9D87"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
+			subtitle: "Capatalism at its finest!"
+			tasks: [{
+				id: "308F1EE0E6070AD1"
+				title: "The Shop"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["773C79EA2A0BA505"]
+			description: ["Durability does not exist around here, meaning your crafting tools will no longer break nonstop!"]
+			id: "3D7F73E9C77BF364"
+			rewards: [{
+				id: "41E57524FAD3AAD5"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
+			subtitle: "Durability 100/100"
+			tasks: [{
+				id: "1D2B6F70107BF3B7"
+				title: "Durability?"
+				type: "checkmark"
+			}]
+			title: "What happened to durability?"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["773C79EA2A0BA505"]
+			id: "3419A2091CA4888E"
+			rewards: [{
+				id: "2AAC0D611EEF260E"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
+			subtitle: "The Diamond Dimensions, Episode One."
+			tasks: [{
+				count: 16L
+				id: "29F168BC38230646"
+				item: { Count: 16, id: "minecraft:oak_log" }
+				type: "item"
+			}]
+			title: "Punch Wood Man!"
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4A8DE6A5F9675BE5"]
+			description: ["&5Coke&r is a very useful material for your current factory (if it can be called that). It is capable of smelting up to 16 items in a furnace, and it will prove to be very useful in a &6Solid Steam Burner&r (foreshadowing)."]
+			id: "5228452C95DB76AA"
+			rewards: [{
+				id: "007FB749A781A4F2"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
+			subtitle: "Coal's Older Sister"
+			tasks: [{
+				id: "5813205782899AD2"
+				item: "gtceu:coke_gem"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3419A2091CA4888E"]
+			description: ["(we all know that \"workbench\" is better than \"crafting table\" anyway >:P)"]
+			id: "0538FF87090F4CF6"
+			rewards: [{
+				id: "2CB1F7A0A2CBC8C7"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
+			subtitle: "Terrarians, unite!"
+			tasks: [{
+				id: "562192A43B2A688B"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(forge:workbench)"
+					}
+				}
+				title: "Any #forge:workbench"
+				type: "item"
+			}]
+			title: "Workbench > Crafting Table"
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0538FF87090F4CF6"]
+			id: "1CD07284A5DFF798"
+			rewards: [{
+				id: "440207B79113D9EC"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
+			subtitle: "Maybe some bonks will do you good."
+			tasks: [{
+				id: "62267DBC184712F4"
+				item: {
+					Count: 1
+					id: "gtceu:wood_mallet"
+					tag: {
+						Damage: 0
+						DisallowContainerItem: 0b
+						GT.Behaviours: { }
+						GT.Tool: {
+							Damage: 0
+							MaxDamage: 127
+						}
+						HideFlags: 2
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1CD07284A5DFF798"]
+			id: "79685FD2F01D98F1"
+			rewards: [{
+				id: "0925F5522457B3A1"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
+			subtitle: ":3"
+			tasks: [{
+				id: "01C97CD377DC09E0"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:beds)"
+					}
+				}
+				title: "Any #minecraft:beds"
+				type: "item"
+			}]
+			title: "The Eeper"
+			x: -8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["13500D6CD44C91BE"]
+			description: [
+				"You may notice that many of these quest requirements are &1optional&r! This is indeed intended."
+				""
+				"Quests that involve more crafting steps may mark many of the ingredients as optional. They are there so that you can see how much and what to craft, but without making you craft more because the quest did not recognize that you obtained it."
+				""
+				"Crafting ninjas unite!"
+				""
+				"---"
+				""
+				"&lTerms of Service&r"
+				""
+				"By clicking the above button, you acknowledge that you have completed the following task(s):"
+				"- Obtained at least 200 Sand blocks at some point before clicking the button."
+				"- Obtained at least 120 Clay Balls at some point before clicking the button."
+				"- Obtained at least 120 Uncompressed Coke Bricks at some point before clicking the button."
+				"- Obtained at least 120 Coke Bricks at some point before clicking the button."
+				"- Obtained at least 30 Coke Oven Bricks at some point before clicking the button."
+				"- Obtained at least 1 Coke Oven controller block at some point before clicking the button."
+				""
+				"By clicking the above button, you agree to the following term(s):"
+				"- Will sacrifice your first steel ingot to the steel gods on the first full moon after obtaining the steel ingot."
+				""
+				"If it comes to our (GregPunk Enterprise's) attention that you clicked the button without or before completing the above acknowledgements, you will be subject to becoming a test subject for our Wormhole Experimentation."
+			]
+			icon: "gtceu:coke_oven"
+			id: "4A8DE6A5F9675BE5"
+			rewards: [{
+				count: 4
+				id: "180EB4FBA40DBD63"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
+			subtitle: "Baby's First Multiblock"
+			tasks: [
+				{
+					count: 200L
+					id: "5B225238A0FC24E1"
+					item: "minecraft:sand"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 120L
+					id: "3F1B0E5FB153C81C"
+					item: { Count: 120, id: "minecraft:clay_ball" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 120L
+					id: "65FBCF2087B12E79"
+					item: { Count: 120, id: "gtceu:compressed_coke_clay" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 120L
+					id: "2FA80EE8579A3E05"
+					item: { Count: 120, id: "gtceu:coke_oven_brick" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 30L
+					id: "560AF5D6E8077DDB"
+					item: { Count: 30, id: "gtceu:coke_oven_bricks" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7B37DB515BFED781"
+					item: "gtceu:coke_oven"
+					type: "item"
+				}
+				{
+					id: "76A640AF47AC64F3"
+					title: "By clicking this button you acknowledge and agree to the Terms of Service provided below."
+					type: "checkmark"
+				}
+			]
+			title: "Coke Oven Preparations"
+			x: -6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["138E74EE16F0B655"]
+			description: [
+				"Yes, there are a lot. These tools however will be your lifeblood for the foreseeable future. Take good care of them!"
+				""
+				"&o&bThis quest accepts any tool from the tag, however I recommend using whatever is cheapest for you. Since durability is removed, you can stick with the same tools for the whole run if you so choose.&r"
+			]
+			id: "13500D6CD44C91BE"
+			rewards: [{
+				count: 4
+				id: "378B627F617EE474"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
+			subtitle: "Wait, how many are there?!"
+			tasks: [
+				{
+					id: "2D574FB3E24FD45E"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(forge:tools/hammers)"
+						}
+					}
+					title: "Any #forge:tools/hammers"
+					type: "item"
+				}
+				{
+					id: "014116485974A958"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(forge:tools/mortars)"
+						}
+					}
+					title: "Any #forge:tools/mortars"
+					type: "item"
+				}
+				{
+					id: "7060425F686D322A"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(forge:tools/saws)"
+						}
+					}
+					title: "Any #forge:tools/saws"
+					type: "item"
+				}
+				{
+					id: "15C0E95D35396D09"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(forge:tools/wrenches)"
+						}
+					}
+					title: "Any #forge:tools/wrenches"
+					type: "item"
+				}
+				{
+					id: "58345E1C005A18CC"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(forge:tools/files)"
+						}
+					}
+					title: "Any #forge:tools/files"
+					type: "item"
+				}
+				{
+					id: "266FFE325487A7B3"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(forge:tools/wire_cutters)"
+						}
+					}
+					title: "Any #forge:tools/wire_cutters"
+					type: "item"
+				}
+				{
+					id: "3DCBB00C5BD8E75E"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(forge:tools/screwdrivers)"
+						}
+					}
+					title: "Any #forge:tools/screwdrivers"
+					type: "item"
+				}
+				{
+					id: "2F8F48BC52C28706"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(forge:tools/knives)"
+						}
+					}
+					title: "Any #forge:tools/knives"
+					type: "item"
+				}
+			]
+			title: "Stop! Hamma' time!"
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0538FF87090F4CF6"]
+			description: [
+				"Is 64 too much? No. No it is not. You will use every drop of this and more."
+				""
+				"Also fear not, you will obtain drills soon enough."
+			]
+			id: "138E74EE16F0B655"
+			rewards: [{
+				count: 2
+				id: "4EBDAD7CA361D63F"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
+			subtitle: "(aka the age of wimps)"
+			tasks: [{
+				count: 64L
+				id: "5238A4B5006C5109"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			title: "Iron Age"
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["13500D6CD44C91BE"]
+			description: ["Bronze is your ticket to the &6Steam Age&r, be sure to craft lots!"]
+			id: "20DFA02459039C57"
+			rewards: [{
+				id: "3BFDED6FFA23C14D"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
+			subtitle: "Alas! The Bronze Age!"
+			tasks: [{
+				id: "62420770F4D84713"
+				item: "gtceu:bronze_ingot"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["22CE1CA12476231D"]
+			description: ["Create is available, however has been heavily tweaked. Any existing progression knowledge regarding it should be scrapped now. Here be gregification!"]
+			id: "273323ECDC636F52"
+			rewards: [{
+				id: "19F186BB597ECB3B"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
+			subtitle: "I hope you weren't expecting smooth sailing..."
+			tasks: [{
+				id: "21C236F858823A4A"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			title: "Gregified Create Incoming"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["273323ECDC636F52"]
+			id: "793F446547A6B4F6"
+			rewards: [{
+				id: "4CC492347317B503"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
+			subtitle: "Don't worry, the other Create recipes are just as fun."
+			tasks: [{
+				id: "58B06A0A26ED165F"
+				item: "create:andesite_casing"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["20DFA02459039C57"]
+			description: ["Some machines use a Bronze Brick Casing, whilst others use a Steam Machine Casing. Thanks GregTech :D"]
+			id: "523292623CC817D3"
+			rewards: [{
+				count: 2
+				id: "7528B8F0B6D08B88"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
+			subtitle: "Are you ready?"
+			tasks: [
+				{
+					id: "0D4B5C8AF496212C"
+					item: "gtceu:steam_machine_casing"
+					type: "item"
+				}
+				{
+					id: "6F9A1436602D36AB"
+					item: "gtceu:bronze_brick_casing"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["773C79EA2A0BA505"]
+			description: [
+				"GregTech is notorious for its microcrafting. To mitigate this, craft in batches! Trust me, craft in batches. Once more: Craft. In. Batches."
+				""
+				"I recommend crafting your common resources in stacks and less common resources... still in stacks."
+				""
+				"It is very difficult to waste resources in the early game of GregTech."
+			]
+			id: "1FBDA09894552121"
+			rewards: [{
+				id: "1E9AF73953AD9175"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
+			subtitle: "Seriously."
+			tasks: [{
+				id: "1899A66900BA424E"
+				title: "Batches!"
+				type: "checkmark"
+			}]
+			title: "Craft in Batches!"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["13500D6CD44C91BE"]
+			description: [
+				"&aWrought Iron&r can be thought of as the precursor to &6Steel&r. It is stronger than Iron however weaker than steel. You will need a pretty large amount, so I recommend batch crafting."
+				""
+				"&cPro Tip:&r Once unlocked, use Create's Fan Blasting to quickly smelt huge amounts of Iron Nuggets extremely fast."
+			]
+			id: "22CE1CA12476231D"
+			rewards: [{
+				id: "495BC7981AF10B48"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
+			subtitle: "Rust++ When?"
+			tasks: [
+				{
+					count: 9L
+					id: "2A31926C11475379"
+					item: { Count: 9, id: "gtceu:wrought_iron_nugget" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7C52A3A922565740"
+					item: "gtceu:wrought_iron_ingot"
+					type: "item"
+				}
+			]
+			title: "Iron++"
+			x: -2.0d
+			y: 4.0d
+		}
+	]
+	title: "Primitive Age"
+}

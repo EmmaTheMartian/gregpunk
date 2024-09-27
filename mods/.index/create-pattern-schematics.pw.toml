@@ -1,0 +1,13 @@
+filename = 'pattern_schematics-1.1.13+forge-1.20.1.jar'
+name = 'Create: Pattern Schematics'
+side = 'both'
+
+[download]
+hash = '17a3db5f9b3061b57532fe674316e93a98665e6ebbc2a2e760a690e94e71346e80dce75642ce2dfb20c5e24234e2ed42ef37044a4f8c04ba832ecdaec11363b8'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/cpqKG67r/versions/ZBrB0Adx/pattern_schematics-1.1.13%2Bforge-1.20.1.jar'
+
+[update.modrinth]
+mod-id = 'cpqKG67r'
+version = 'ZBrB0Adx'

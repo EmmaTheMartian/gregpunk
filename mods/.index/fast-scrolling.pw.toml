@@ -1,0 +1,13 @@
+filename = 'FastScrolling-2.0.1.jar'
+name = 'Fast Scrolling'
+side = 'client'
+
+[download]
+hash = '43348a43b2e6bc98446b5b3ec499f4d7831b840ef1f2905da6817fbba132bd01cd4914ccbd86514c1439f483f8d3e81dedac864e64902b21972931763bac1afe'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/JZKbCCSk/versions/3SSvWbqw/FastScrolling-2.0.1.jar'
+
+[update.modrinth]
+mod-id = 'JZKbCCSk'
+version = '3SSvWbqw'

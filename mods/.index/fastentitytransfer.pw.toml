@@ -1,0 +1,13 @@
+filename = 'fastentitytransfer-forge-1.20-1.20.1-1.3.1.jar'
+name = 'Fast Entity Transfer'
+side = 'both'
+
+[download]
+hash = 'e83367afb4ae5f0aae537d67177561cfa923a0c7dbefb2464a8534117911a719326c4d6adac43d8e6fc6c432f46c9ccc0a65c342947c2702888e6594e450972c'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/inmPbeHN/versions/kWAIRGx7/fastentitytransfer-forge-1.20-1.20.1-1.3.1.jar'
+
+[update.modrinth]
+mod-id = 'inmPbeHN'
+version = 'kWAIRGx7'

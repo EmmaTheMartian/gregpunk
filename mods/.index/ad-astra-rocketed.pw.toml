@@ -1,0 +1,13 @@
+filename = 'ad_astra_rocketed-forge-1.20.1-1.0.3.jar'
+name = 'Ad Astra: Rocketed'
+side = 'both'
+
+[download]
+hash = '10c547011d7da4ba0dc9e6b52d7e5bdaa5f9f587b5c8b1b95086e33f82f2166f7c41a27fad147017ba4edf6f9c6e514fb390e5006d453fd3b2ec2d7c3ee9abe2'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/iBCLOcBl/versions/FnaAvgcD/ad_astra_rocketed-forge-1.20.1-1.0.3.jar'
+
+[update.modrinth]
+mod-id = 'iBCLOcBl'
+version = 'FnaAvgcD'

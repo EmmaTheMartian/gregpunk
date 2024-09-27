@@ -1,0 +1,13 @@
+filename = 'Quad-1.2.5+1.20.4-Forge.jar'
+name = 'Quad'
+side = 'both'
+
+[download]
+hash = '2bf413e40b664070fa56741b0b9a509d35b5eb6658d499cc2cf55ed4ccd0d3d9eb49290eddfae1176e82d2e8325e5d5e19bdfbdeb746f13e9fae0c95717a66e1'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/7jzrCiK0/versions/Ju1db1s4/Quad-1.2.5%2B1.20.4-Forge.jar'
+
+[update.modrinth]
+mod-id = '7jzrCiK0'
+version = 'Ju1db1s4'

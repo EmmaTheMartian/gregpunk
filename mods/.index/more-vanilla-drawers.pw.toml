@@ -1,0 +1,13 @@
+filename = 'morevanilladrawers-1.20.1-1.0.0.jar'
+name = 'More Vanilla Drawers'
+side = 'both'
+
+[download]
+hash = 'e831c7ac8628a949f8db1fac55daf2d95863f57ab76b82e442d5d1ac36273e5789539e8ccddb4b04784c970963c935e912e2299913cbf42d54c1a17fdcd6043b'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/ohOQA8hF/versions/IhdfTnRv/morevanilladrawers-1.20.1-1.0.0.jar'
+
+[update.modrinth]
+mod-id = 'ohOQA8hF'
+version = 'IhdfTnRv'

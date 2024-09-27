@@ -1,0 +1,13 @@
+filename = 'Sounds-2.1.0+1.20.1+forge.jar'
+name = 'Sounds'
+side = 'client'
+
+[download]
+hash = '371aef31ea8aa2291866c665fd08f354a8576cce19f1a89e4e15253c8b9e3f2b5bef79917ca27d99096136fb577a3dd04cf2faef1672f71ec3bf7df8add0a99a'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/ZouiUX7t/versions/yHZHCGCx/Sounds-2.1.0%2B1.20.1%2Bforge.jar'
+
+[update.modrinth]
+mod-id = 'ZouiUX7t'
+version = 'yHZHCGCx'

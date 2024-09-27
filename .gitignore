@@ -1,0 +1,56 @@
+# VSCode
+/.vscode
+
+# Kube Things
+/kubejs/probe
+/kubejs/config/probejs.json
+/kubejs/jsconfig.json
+
+# Caches
+/.blinkload
+/.mixin.out
+/caxton_cache
+/modernfix
+libcaxton_impl.so
+
+# Backups
+/backups
+
+# Mods
+*.jar
+*.jar.disabled
+
+# Logs
+/crash-reports
+/logs
+*.log
+
+# Etcetera
+/figura
+/ldlib
+/local
+/patchouli_books
+/rhino.local.properties
+
+# Player-specific Data
+/resourcepacks
+/saves
+/schematics
+/screenshots
+/server-resource-packs
+/shaderpacks
+/texturepacks
+/TrashSlotSaveState.json
+/usercache.json
+/usernamecache.json
+/patchouli_data.json
+
+# Configs
+/emi.json
+/options.txt
+
+# Just in case
+**/.DS_Store
+
+# Exports
+/exports

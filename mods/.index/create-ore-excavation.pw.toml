@@ -1,0 +1,13 @@
+filename = 'createoreexcavation-1.20-1.5.2.jar'
+name = 'Create Ore Excavation'
+side = 'both'
+
+[download]
+hash = '6db8d43b3c0e7a7968eb5c86797daad5684b7d8060b0f315c8854468d5986a948ec7d9b611a2c9526a3b9a42182b1afbb5bd4751866a015382f3c2fd8f8d30e8'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/ResbpANg/versions/JoRQ9ZCh/createoreexcavation-1.20-1.5.2.jar'
+
+[update.modrinth]
+mod-id = 'ResbpANg'
+version = 'JoRQ9ZCh'

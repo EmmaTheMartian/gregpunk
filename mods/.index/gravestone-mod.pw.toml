@@ -1,0 +1,13 @@
+filename = 'gravestone-forge-1.20.1-1.0.23.jar'
+name = 'GraveStone Mod'
+side = 'both'
+
+[download]
+hash = '5e5c4a2ab38c749d80e0060ac353e8910a0a93ebdb9cffded9127e95b9cf73184c1fbdc213e7fb53fa3d2b73a88fbba2eb664988f4cadbf3f2a959eb81304f90'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/RYtXKJPr/versions/No7NPOP4/gravestone-forge-1.20.1-1.0.23.jar'
+
+[update.modrinth]
+mod-id = 'RYtXKJPr'
+version = 'No7NPOP4'

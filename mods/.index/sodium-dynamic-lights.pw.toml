@@ -1,0 +1,13 @@
+filename = 'sodiumdynamiclights-forge-1.0.2-1.20.1.jar'
+name = 'Sodium Dynamic Lights'
+side = 'client'
+
+[download]
+hash = 'c85aadf7eb101204ab5bf7659c6753a5d8c316587dfe623ebcfdda86e4df68dc33ce6b97997af562def22eee01a772db6b6f8ec82846c38957864660cf121e49'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/PxQSWIcD/versions/KvkDc6wx/sodiumdynamiclights-forge-1.0.2-1.20.1.jar'
+
+[update.modrinth]
+mod-id = 'PxQSWIcD'
+version = 'KvkDc6wx'

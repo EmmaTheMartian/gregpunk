@@ -1,0 +1,13 @@
+filename = 'aecapfix-0.9.jar'
+name = 'AECapFix'
+side = 'server'
+
+[download]
+hash = 'f54e2cebde7b72bc4555c2a8dc53e91db0217d2a72d9619b25b7fb05319c0666ce9d7036468dd21c0a832054e424283dabe08d5c175c5d7535e058f75e122173'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/LkfFGNnA/versions/dPU2YGI4/aecapfix-0.9.jar'
+
+[update.modrinth]
+mod-id = 'LkfFGNnA'
+version = 'dPU2YGI4'

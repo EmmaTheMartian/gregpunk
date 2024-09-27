@@ -1,0 +1,13 @@
+filename = 'sdm_ui_lib-1.20.1-1.8.1.jar'
+name = 'SDM UI Lib [Forge/Fabric]'
+side = 'client'
+
+[download]
+hash = '2a137b7f801712cd4ccdddcf08ba38d8f4665a6c1c9947c4b3f38fe9318a25c02ee63f67b42d73be958cec3c6110f6dde05e680b1ce57cad156eff5e1374aaf8'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/MdmRC4B5/versions/N56h4b3J/sdm_ui_lib-1.20.1-1.8.1.jar'
+
+[update.modrinth]
+mod-id = 'MdmRC4B5'
+version = 'N56h4b3J'

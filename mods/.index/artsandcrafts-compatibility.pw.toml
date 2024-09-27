@@ -1,0 +1,13 @@
+filename = 'arts_and_crafts_compat-forge-1.20.1-1.1.0.jar'
+name = 'Arts & Crafts Compatibility'
+side = 'server'
+
+[download]
+hash = 'c96bec374089722fab9f1a6cbefd050afda9cd87815a3474ddd31defc2e325c8f6940ee196610a47d8ca9b0b6a2c9c9e5fe18b8cbdb99fd659b4068df431fcc1'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/uFws80gC/versions/bknDxoRx/arts_and_crafts_compat-forge-1.20.1-1.1.0.jar'
+
+[update.modrinth]
+mod-id = 'uFws80gC'
+version = 'bknDxoRx'

@@ -1,0 +1,13 @@
+filename = 'marspopsicle-1.20.1-1.0.0.jar'
+name = 'Mars Popsicle'
+side = 'server'
+
+[download]
+hash = '37502b4c883b9729f9dcd8702772492b6e128c8bc207e4c8c7969ff3fa4be9150a73cdad23ea77f72c9dd3389224115963b66742418de883be290a473f32e015'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/kSlCJBr5/versions/Jw1ZpuPC/marspopsicle-1.20.1-1.0.0.jar'
+
+[update.modrinth]
+mod-id = 'kSlCJBr5'
+version = 'Jw1ZpuPC'

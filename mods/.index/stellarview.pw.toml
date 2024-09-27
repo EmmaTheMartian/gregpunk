@@ -1,0 +1,13 @@
+filename = 'Stellar View-1.20.1-0.2.4.jar'
+name = 'Stellar View'
+side = 'client'
+
+[download]
+hash = '91df5d91e02b9056ac6eb678cafc72fce6ad1d6aa21dfd3358a6bd8a1ec65c5a6bcafbb5f6892b99b50da3160108c13223a11223a81fab2303fe34ab3f6f1bbe'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/Iairjv0A/versions/1ueLEPg8/Stellar View-1.20.1-0.2.4.jar'
+
+[update.modrinth]
+mod-id = 'Iairjv0A'
+version = '1ueLEPg8'

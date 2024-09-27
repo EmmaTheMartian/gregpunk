@@ -1,0 +1,13 @@
+filename = 'xtonesreworked-1.0.3-F_1.20.1-47.2.0.jar'
+name = 'Xtones Reworked'
+side = 'both'
+
+[download]
+hash = 'a0bfd894df2443506efb7cc6bcfd10658f1b88fb0df1e7ade59fb10757d66c9ddbda009ecbe0a714749975f05f5dd20c8a3729598f5392cc9dad469866b5d0ee'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/YDluI37t/versions/h8GE5pJZ/xtonesreworked-1.0.3-F_1.20.1-47.2.0.jar'
+
+[update.modrinth]
+mod-id = 'YDluI37t'
+version = 'h8GE5pJZ'

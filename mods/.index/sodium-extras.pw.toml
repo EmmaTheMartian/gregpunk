@@ -1,0 +1,13 @@
+filename = 'sodiumextras-forge-1.0.3-1.20.1.jar'
+name = 'Sodium Extras'
+side = 'client'
+
+[download]
+hash = '3e59cabb4df6d5989e04ad957c28d9a3e27170af15605dbdbf2f97fd79a3d58b678edb84fe44a97b085943ec65163b8d96f73dc5f46817a674082749698d5b99'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/vqqx0QiE/versions/yiHnJGmd/sodiumextras-forge-1.0.3-1.20.1.jar'
+
+[update.modrinth]
+mod-id = 'vqqx0QiE'
+version = 'yiHnJGmd'

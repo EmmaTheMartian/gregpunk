@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "uxv"
+	group: "430ECBC494532E2E"
+	id: "4E28C1C23A1E2258"
+	order_index: 13
+	quest_links: [ ]
+	quests: [ ]
+	title: "UXV"
+}

@@ -1,0 +1,13 @@
+filename = 'PuzzlesLib-v8.1.23-1.20.1-Forge.jar'
+name = 'Puzzles Lib'
+side = 'both'
+
+[download]
+hash = '87e2a8fae68b9861a62cc9385e4e62231a2cac1bfcc26184c75f83f31fada1cbd713ebb9223218175a103d09e50ecaea1620692ec0754602b1cc571138bb6e61'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/QAGBst4M/versions/UlSkomup/PuzzlesLib-v8.1.23-1.20.1-Forge.jar'
+
+[update.modrinth]
+mod-id = 'QAGBst4M'
+version = 'UlSkomup'

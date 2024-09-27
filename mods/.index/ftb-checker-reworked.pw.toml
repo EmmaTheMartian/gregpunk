@@ -1,0 +1,13 @@
+filename = 'ftbcheckerreworked-0.1.1.jar'
+name = 'FTB Checker Reworked'
+side = 'client'
+
+[download]
+hash = '1d00a9e4a618281de54c7ece0b9dede2613ccbb07f443ca72d4367ace991f70019a7177595b582cb1520d1de749650ae82329838a9d2b476f267764a63033c21'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/nkZr5PZv/versions/d7xjbz7m/ftbcheckerreworked-0.1.1.jar'
+
+[update.modrinth]
+mod-id = 'nkZr5PZv'
+version = 'd7xjbz7m'

@@ -1,0 +1,13 @@
+filename = 'Display Case-forge-1.20-1.0.8.jar'
+name = 'Display Case'
+side = 'both'
+
+[download]
+hash = '59de0ad0cddb751919d8a4e0b7caf39cc6e9fa3a0449e23f896b4798c78f209c795b006e6c262e971bc61c13e147472122f07ab510e595c69a72368a00c57d9c'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/cSIsh4gX/versions/DQDfQ22z/Display Case-forge-1.20-1.0.8.jar'
+
+[update.modrinth]
+mod-id = 'cSIsh4gX'
+version = 'DQDfQ22z'

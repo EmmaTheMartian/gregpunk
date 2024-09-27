@@ -1,0 +1,13 @@
+filename = 'sodiumoptionsapi-forge-1.0.2-1.20.1.jar'
+name = 'Sodium Options API'
+side = 'client'
+
+[download]
+hash = '2a142829dde6520c2961ea8a4b54c78bf8654f35e9b4664a2cec825cca1e1817b1a4a4d33662dc25abcf61c1778583bffdd2440ad147ff62e1c1e9c8699e3d7d'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/Es5v4eyq/versions/nD6iGcEU/sodiumoptionsapi-forge-1.0.2-1.20.1.jar'
+
+[update.modrinth]
+mod-id = 'Es5v4eyq'
+version = 'nD6iGcEU'

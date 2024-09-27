@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "uv"
+	group: "430ECBC494532E2E"
+	icon: "gtceu:darmstadtium_ingot"
+	id: "3DEB7E1C41190E04"
+	order_index: 9
+	quest_links: [ ]
+	quests: [ ]
+	title: "UV"
+}

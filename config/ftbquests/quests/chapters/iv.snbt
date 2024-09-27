@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "iv"
+	group: "430ECBC494532E2E"
+	icon: "gtceu:tungsten_steel_ingot"
+	id: "500E37B217E257A1"
+	order_index: 6
+	quest_links: [ ]
+	quests: [ ]
+	title: "IV"
+}

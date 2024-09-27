@@ -1,0 +1,7 @@
+- [ ] Tweak vanilla recipes
+	- [x] Chest
+	- [x] Furnace
+	- [x] Workbench
+	- [x] Bed :>
+- [ ] Backpacks
+- [ ] Sleeping Bag

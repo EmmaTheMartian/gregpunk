@@ -1,0 +1,13 @@
+filename = 'TravelAnchors-1.20.1-5.0.0.jar'
+name = 'Travel Anchors'
+side = 'both'
+
+[download]
+hash = '0556638987f376d8dee8e8f62043139bfc14c27b8b093a272647b209a2b1c793d54c2c5fb8623d1dba152fa6612331af917255b97d163de37cc91379f7ea344b'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/M2mzwfek/versions/6Unsxice/TravelAnchors-1.20.1-5.0.0.jar'
+
+[update.modrinth]
+mod-id = 'M2mzwfek'
+version = '6Unsxice'

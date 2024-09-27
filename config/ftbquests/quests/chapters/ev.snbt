@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ev"
+	group: "430ECBC494532E2E"
+	icon: "gtceu:titanium_ingot"
+	id: "420C193309E454A2"
+	order_index: 5
+	quest_links: [ ]
+	quests: [ ]
+	title: "EV"
+}

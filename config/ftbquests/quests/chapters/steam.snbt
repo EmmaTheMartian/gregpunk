@@ -1,0 +1,647 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "steam"
+	group: "430ECBC494532E2E"
+	icon: "gtceu:bronze_ingot"
+	id: "34F9E62C8A6485E5"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"7E9DCE28B226BBFC"
+				"6AFC2E5F0A6B744F"
+				"21C20A637361128E"
+			]
+			description: ["Seriously. Batch craft these. Lots of them."]
+			id: "7B5C0EE4BC8BFB13"
+			rewards: [{
+				count: 4
+				id: "5C4B6D2B3435C969"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
+			subtitle: "Batch craft these!"
+			tasks: [{
+				id: "16B73324B24423E1"
+				item: "gtceu:basic_electronic_circuit"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0BC03E75FA1D477F"]
+			id: "6AFC2E5F0A6B744F"
+			rewards: [{
+				id: "197A9E5110DE4A71"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2F5C43C427C006AF"
+				item: "gtceu:resin_printed_circuit_board"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"1182B78A04127B47"
+				"403644584B0ABEDC"
+			]
+			id: "7E9DCE28B226BBFC"
+			rewards: [{
+				id: "590D976BBCD62CF5"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5FD5932B41FD64B4"
+				item: "gtceu:vacuum_tube"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0BC03E75FA1D477F"]
+			id: "21C20A637361128E"
+			rewards: [{
+				id: "026B8265B9437B11"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "596A4779A314E6B0"
+				item: "gtceu:resistor"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["523292623CC817D3"]
+			description: [
+				"&3Steam&r works exactly like a fluid. You can extract it from something using a pipe and insert with pipes too."
+				""
+				"Steam machines can only craft &dULV&r and &dLV&r recipes, and will consume steam/t equal to its &aEU/t * 2&r."
+				"&l(todo: fact check this)&r"
+				""
+				"Make sure that your steam generators have water &lBEFORE&r letting them get hot. If you put water in a steam machine that is already hot, &cit will blow up&r!"
+				""
+				"Some machines are required, some are not. Use your best judgement as you progress to determine which machines you think you need."
+			]
+			id: "475304DF6747DD81"
+			tasks: [{
+				id: "4E2E29E269D902D5"
+				title: "Steam"
+				type: "checkmark"
+			}]
+			title: "The Steam Age"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["475304DF6747DD81"]
+			id: "1CD311C86D711DFF"
+			rewards: [{
+				id: "05C6BAAC3D34A93E"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "56EA35DEBD32768A"
+				item: "gtceu:lp_steam_solid_boiler"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["475304DF6747DD81"]
+			id: "45EBC6FE3E6621CC"
+			rewards: [{
+				id: "20ED13B92DAC45CA"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7AEBBEDD1667F86A"
+				item: "gtceu:lp_steam_liquid_boiler"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["475304DF6747DD81"]
+			id: "37420F9C2A540398"
+			rewards: [{
+				id: "6B1E82E6B9FDE4BF"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7B3151666EBF48CE"
+				item: "gtceu:lp_steam_solar_boiler"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["475304DF6747DD81"]
+			description: [
+				"The &bLow Pressure Steam Forge Hammer&r (say that five times fast) can press plates at a &a3:2 ratio&r! I highly advise crafting this first so that you can increase resource efficiency for the upcoming machinery."
+				""
+				"It can also do a few other things, but the plate ratio is probably the most important for now."
+			]
+			id: "2B9F9BADC9E6A827"
+			rewards: [{
+				id: "4337154D84803BD9"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "64B13548627993FB"
+				item: "gtceu:lp_steam_forge_hammer"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["475304DF6747DD81"]
+			description: ["&bAlloy Smelters&r aid in the production of... alloys. I feel like that was kind of obvious. Anyway, it will allow you to produce &bBronze&r with significantly less microcrafting!"]
+			id: "403644584B0ABEDC"
+			rewards: [{
+				id: "60F5D62F09AA3A8E"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0E279F8E5755033E"
+				item: "gtceu:lp_steam_alloy_smelter"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["475304DF6747DD81"]
+			id: "284A2106BE345A5A"
+			rewards: [{
+				id: "6AC345062E84BBFC"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "35FD826FCD4C288D"
+				item: "gtceu:lp_steam_extractor"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["475304DF6747DD81"]
+			id: "56B1C8D0252C034F"
+			rewards: [{
+				id: "08EDFA6A3BE4A5A6"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "46B3C51FCDC3593C"
+				item: "gtceu:lp_steam_compressor"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4F9AE5B056087A7D"]
+			id: "72B98274ECD7BFD8"
+			rewards: [{
+				id: "21DA052AC902CB02"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1B773CE1BA06158F"
+				item: "gtceu:lp_steam_macerator"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4F9AE5B056087A7D"]
+			id: "6899C6CAF00EF507"
+			rewards: [{
+				id: "4919B551739F7C85"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "640800BECF6645DA"
+				item: "gtceu:lp_steam_furnace"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4F9AE5B056087A7D"]
+			id: "01487E5950273D31"
+			rewards: [{
+				id: "39C3B25C89DD2622"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "02FCD5B488DEC5E2"
+				item: "gtceu:lp_steam_rock_crusher"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4F9AE5B056087A7D"]
+			id: "1DBF975A84DBBC00"
+			rewards: [{
+				id: "2F272CB2BBD9EA2E"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "77ED919A9B3FF4A1"
+				item: "gtceu:steam_miner"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4F9AE5B056087A7D"]
+			id: "0DDD86C873421F76"
+			rewards: [{
+				id: "268C0A22463BFD09"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "196613A60C0884AD"
+				item: "gtceu:steam_grinder"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 2.0d
+		}
+		{
+			id: "2D82E4C0F1224ACF"
+			tasks: [{
+				id: "21DAAA19C649392E"
+				item: "gtceu:steam_oven"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			id: "0FFD52FE7827AFF0"
+			tasks: [{
+				id: "579B19EF2AD24BA3"
+				item: "gtceu:bronze_large_boiler"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"You can get &6Sticky Resin&r from &aRubber Trees&r or by smelting &aSlime Balls&r."
+				""
+				"If you have had bad luck finding one of these, you can purchase Rubber Tree Saplings from the Primitive Age Shop."
+			]
+			id: "0BC03E75FA1D477F"
+			rewards: [{
+				id: "26C6EB39A1C80D61"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "72AE4016FEEF20EC"
+				item: "gtceu:sticky_resin"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5B6FA68EE4046C30"]
+			description: ["&dPro Tip:&r Making steel is pretty fast if you use &aCoal Coke&r with &aWrought Iron&r."]
+			id: "1182B78A04127B47"
+			rewards: [{
+				count: 2
+				id: "477DBC6935537181"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "717B63450676221F"
+				item: "gtceu:steel_ingot"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["56B1C8D0252C034F"]
+			description: [
+				"So. Clay. We all love it."
+				""
+				"Now go get &5528 Clay Balls&r (or &5132 Clay Blocks&r, if you prefer)."
+			]
+			icon: "gtceu:primitive_blast_furnace"
+			id: "5B6FA68EE4046C30"
+			rewards: [{
+				count: 4
+				id: "455565D608D343B9"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 132L
+					id: "08BBA0C3A0D85B17"
+					item: "gtceu:fireclay_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 132L
+					id: "4AB17F4B3B75361F"
+					item: "gtceu:compressed_fireclay"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 132L
+					id: "2FE42646048E0D82"
+					item: "gtceu:firebrick"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 33L
+					id: "7F1C0469F909E5C0"
+					item: { Count: 32, id: "gtceu:firebricks" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5EA9C1B446E3018F"
+					item: "gtceu:primitive_blast_furnace"
+					type: "item"
+				}
+			]
+			title: "PBF <3"
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["475304DF6747DD81"]
+			description: [
+				"These machines are not required, however will probably aid you in progression should you decide to craft them."
+				""
+				"&bLV&r is still a little bit away so do not disregard these machines quite yet :P"
+			]
+			id: "4F9AE5B056087A7D"
+			subtitle: "Woah! Optional Machines!"
+			tasks: [{
+				id: "63D267E74D8ED406"
+				title: "Fringe Machines"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1182B78A04127B47"]
+			id: "7626312D2E0EA304"
+			rewards: [{
+				id: "55EBFB52F629E9E5"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5931826BFFFA4EE2"
+				item: "gtceu:lv_machine_casing"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7626312D2E0EA304"]
+			description: [""]
+			id: "335CCB24CE2C6F76"
+			rewards: [{
+				id: "42F64B0B9DC1BA02"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "083C5C3559185BF5"
+				item: "gtceu:lv_machine_hull"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1182B78A04127B47"]
+			description: [
+				"Now that you have &9Steel&r, you can approach &aHigh Pressure&r machinery. They produce and consume more steam, but are faster and more pricy."
+				""
+				"You can either upgrade your factory to use HP machines, or you can powr through to LV."
+				""
+				"Note that for your power generation in LV, having HP generators will be extremely useful."
+			]
+			id: "5A676581BC8E5C29"
+			tasks: [{
+				id: "2DC2B54DC0B8AF6F"
+				item: "gtceu:steel_brick_casing"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["5A676581BC8E5C29"]
+			id: "522FCBAD196608ED"
+			rewards: [{
+				id: "499CA1B169677DBA"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "793FA0051DAA5919"
+				item: "gtceu:hp_steam_solid_boiler"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["5A676581BC8E5C29"]
+			id: "7DD7DABD22078445"
+			rewards: [{
+				id: "49E5FF30EBC53B54"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5B119234F10ABF22"
+				item: "gtceu:hp_steam_liquid_boiler"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["5A676581BC8E5C29"]
+			id: "10B39183AEE38AD2"
+			rewards: [{
+				id: "6BEA6C23CEBF6431"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7251210F38332524"
+				item: "gtceu:hp_steam_solar_boiler"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["5A676581BC8E5C29"]
+			id: "6A3D7B4A2E5DF56E"
+			rewards: [{
+				id: "4DF5559F6D47545A"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "093D127675A5C599"
+				item: "gtceu:hp_steam_extractor"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["5A676581BC8E5C29"]
+			id: "63E3C8B43163EEBB"
+			rewards: [{
+				id: "55DE82DCC49BB8E3"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "24B8028B7EF72195"
+				item: "gtceu:hp_steam_macerator"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["5A676581BC8E5C29"]
+			id: "7915548DF4D7D8CA"
+			rewards: [{
+				id: "49964C1465D45840"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "39CC9A21D2A747E7"
+				item: "gtceu:hp_steam_compressor"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["5A676581BC8E5C29"]
+			id: "3B48ED80EE9DCCAF"
+			rewards: [{
+				id: "4530E4BBAA200354"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "66F254681C2557C2"
+				item: "gtceu:hp_steam_forge_hammer"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["5A676581BC8E5C29"]
+			id: "0097C9F533383A26"
+			rewards: [{
+				id: "193C8AA09D7A57C9"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1F3DCE3A73FBA403"
+				item: "gtceu:hp_steam_furnace"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["5A676581BC8E5C29"]
+			id: "430D13CFE46C6F7A"
+			rewards: [{
+				id: "7F01D94E62CE4263"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1AA1FCE7CE5E0DBF"
+				item: "gtceu:hp_steam_alloy_smelter"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["5A676581BC8E5C29"]
+			id: "661306D085E40DD5"
+			rewards: [{
+				id: "77104BDD42F56FD2"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6C3B865C69DEC179"
+				item: "gtceu:hp_steam_rock_crusher"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 9.0d
+		}
+	]
+	title: "Steam Age"
+}

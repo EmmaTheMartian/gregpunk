@@ -1,0 +1,577 @@
+{
+	sdmversion: "1.0.0"
+	shopTabs: [
+		{
+			tabEntry: [
+				{
+					entryPrice: 1L
+					entryUUID: [I;
+						1805010227
+						998458983
+						-2124439245
+						1480682984
+					]
+					entryType: {
+						itemStack: {
+							id: "gtceu:cupronickel_credit"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 1
+					isSell: 1b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [{
+						questID: [ ]
+						entryConditionID: "ftbquestConditions"
+					}]
+				}
+				{
+					entryPrice: 8L
+					entryUUID: [I;
+						1464846181
+						-1332458640
+						-1643753892
+						-1706929311
+					]
+					entryType: {
+						itemStack: {
+							id: "gtceu:silver_credit"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 1
+					isSell: 1b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [{
+						questID: [ ]
+						entryConditionID: "ftbquestConditions"
+					}]
+				}
+				{
+					entryPrice: 64L
+					entryUUID: [I;
+						-1951963904
+						-1369944293
+						-2024955976
+						615427395
+					]
+					entryType: {
+						itemStack: {
+							id: "gtceu:gold_credit"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 1
+					isSell: 1b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [{
+						questID: [ ]
+						entryConditionID: "ftbquestConditions"
+					}]
+				}
+				{
+					entryPrice: 512L
+					entryUUID: [I;
+						1673567604
+						-891271271
+						-1991833403
+						-1846745738
+					]
+					entryType: {
+						itemStack: {
+							id: "gtceu:platinum_credit"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 1
+					isSell: 1b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [{
+						questID: [ ]
+						entryConditionID: "ftbquestConditions"
+					}]
+				}
+				{
+					entryPrice: 4096L
+					entryUUID: [I;
+						-350805700
+						827802264
+						-2097954508
+						-1758585034
+					]
+					entryType: {
+						itemStack: {
+							id: "gtceu:osmium_credit"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 1
+					isSell: 1b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [{
+						questID: [ ]
+						entryConditionID: "ftbquestConditions"
+					}]
+				}
+				{
+					entryPrice: 32768L
+					entryUUID: [I;
+						-1044760226
+						-1525726514
+						-1828479896
+						-1169522317
+					]
+					entryType: {
+						itemStack: {
+							id: "gtceu:naquadah_credit"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 1
+					isSell: 1b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [{
+						questID: [ ]
+						entryConditionID: "ftbquestConditions"
+					}]
+				}
+				{
+					entryPrice: 262144L
+					entryUUID: [I;
+						-594190656
+						979126929
+						-2074801404
+						-733142110
+					]
+					entryType: {
+						itemStack: {
+							id: "gtceu:neutronium_credit"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 1
+					isSell: 1b
+					entryLimiter: [ ]
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					description: [ ]
+					title: ""
+					entryCondition: [{
+						questID: [ ]
+						entryConditionID: "ftbquestConditions"
+					}]
+				}
+			]
+			tabLimit: [ ]
+			icon: {
+				id: "gtceu:copper_credit"
+				Count: 1b
+			}
+			tabCondition: [{
+				questID: [ ]
+				entryConditionID: "ftbquestConditions"
+			}]
+			description: [ ]
+			shopTabUUID: [I;
+				-1195522960
+				1487294118
+				-1608362569
+				-1423677806
+			]
+			title: "Credit Exchange"
+		}
+		{
+			tabEntry: [{
+				entryPrice: 1L
+				entryUUID: [I;
+					-298702013
+					271404926
+					-1835179744
+					-2102252678
+				]
+				entryType: {
+					itemStack: {
+						id: "gtceu:rubber_sapling"
+						Count: 4b
+					}
+					shopEntryTypeID: "shopItemEntryType"
+				}
+				entryCount: 1
+				isSell: 0b
+				entryLimiter: [ ]
+				icon: {
+					id: "minecraft:barrier"
+					Count: 1b
+				}
+				description: [ ]
+				title: ""
+				entryCondition: [{
+					questID: [ ]
+					entryConditionID: "ftbquestConditions"
+				}]
+			}]
+			tabLimit: [ ]
+			icon: {
+				id: "minecraft:copper_ingot"
+				Count: 1b
+			}
+			tabCondition: [{
+				questID: [ ]
+				entryConditionID: "ftbquestConditions"
+			}]
+			description: [ ]
+			shopTabUUID: [I;
+				1194759913
+				640634518
+				-1231185643
+				404740931
+			]
+			title: "Primitive Age"
+		}
+		{
+			tabEntry: [ ]
+			tabLimit: [ ]
+			icon: {
+				id: "gtceu:bronze_ingot"
+				Count: 1b
+			}
+			tabCondition: [{
+				questID: [ ]
+				entryConditionID: "ftbquestConditions"
+			}]
+			description: [ ]
+			shopTabUUID: [I;
+				-1641648545
+				-774027519
+				-1492087675
+				1459005307
+			]
+			title: "Steam Age"
+		}
+		{
+			tabEntry: [ ]
+			tabLimit: [ ]
+			icon: {
+				id: "gtceu:steel_ingot"
+				Count: 1b
+			}
+			tabCondition: [{
+				questID: [ ]
+				entryConditionID: "ftbquestConditions"
+			}]
+			description: [ ]
+			shopTabUUID: [I;
+				2039764182
+				1971340042
+				-2043381117
+				366582987
+			]
+			title: "LV"
+		}
+		{
+			tabEntry: [ ]
+			tabLimit: [ ]
+			icon: {
+				id: "gtceu:aluminium_ingot"
+				Count: 1b
+			}
+			tabCondition: [{
+				questID: [ ]
+				entryConditionID: "ftbquestConditions"
+			}]
+			description: [ ]
+			shopTabUUID: [I;
+				84544945
+				-1226879341
+				-1729095780
+				19496360
+			]
+			title: "MV"
+		}
+		{
+			tabEntry: [ ]
+			tabLimit: [ ]
+			icon: {
+				id: "gtceu:stainless_steel_ingot"
+				Count: 1b
+			}
+			tabCondition: [{
+				questID: [ ]
+				entryConditionID: "ftbquestConditions"
+			}]
+			description: [ ]
+			shopTabUUID: [I;
+				567892028
+				1671120893
+				-1786340469
+				490006353
+			]
+			title: "HV"
+		}
+		{
+			tabEntry: [ ]
+			tabLimit: [ ]
+			icon: {
+				id: "gtceu:titanium_ingot"
+				Count: 1b
+			}
+			tabCondition: [{
+				questID: [ ]
+				entryConditionID: "ftbquestConditions"
+			}]
+			description: [ ]
+			shopTabUUID: [I;
+				794084205
+				-1953348453
+				-1126947621
+				-1724895593
+			]
+			title: "EV"
+		}
+		{
+			tabEntry: [ ]
+			tabLimit: [ ]
+			icon: {
+				id: "gtceu:tungsten_steel_ingot"
+				Count: 1b
+			}
+			tabCondition: [{
+				questID: [ ]
+				entryConditionID: "ftbquestConditions"
+			}]
+			description: [ ]
+			shopTabUUID: [I;
+				619253583
+				691621761
+				-1314322004
+				-1955399433
+			]
+			title: "IV"
+		}
+		{
+			tabEntry: [ ]
+			tabLimit: [ ]
+			icon: {
+				id: "gtceu:rhodium_plated_palladium_ingot"
+				Count: 1b
+			}
+			tabCondition: [{
+				questID: [ ]
+				entryConditionID: "ftbquestConditions"
+			}]
+			description: [ ]
+			shopTabUUID: [I;
+				597519468
+				-476887760
+				-1559784150
+				-30798906
+			]
+			title: "LuV"
+		}
+		{
+			tabEntry: [ ]
+			tabLimit: [ ]
+			icon: {
+				id: "gtceu:naquadah_ingot"
+				Count: 1b
+			}
+			tabCondition: [{
+				questID: [ ]
+				entryConditionID: "ftbquestConditions"
+			}]
+			description: [ ]
+			shopTabUUID: [I;
+				651673160
+				1592347823
+				-1788166312
+				553297921
+			]
+			title: "ZPM"
+		}
+		{
+			tabEntry: [ ]
+			tabLimit: [ ]
+			icon: {
+				id: "gtceu:darmstadtium_ingot"
+				Count: 1b
+			}
+			tabCondition: [{
+				questID: [ ]
+				entryConditionID: "ftbquestConditions"
+			}]
+			description: [ ]
+			shopTabUUID: [I;
+				1332745988
+				1814118998
+				-2108945671
+				139854691
+			]
+			title: "UV"
+		}
+		{
+			tabEntry: [ ]
+			tabLimit: [ ]
+			icon: {
+				id: "gtceu:neutronium_ingot"
+				Count: 1b
+			}
+			tabCondition: [{
+				questID: [ ]
+				entryConditionID: "ftbquestConditions"
+			}]
+			description: [ ]
+			shopTabUUID: [I;
+				1399482021
+				1185828065
+				-1846239779
+				438256741
+			]
+			title: "UHV"
+		}
+		{
+			tabEntry: [ ]
+			tabLimit: [ ]
+			icon: {
+				id: "minecraft:barrier"
+				Count: 1b
+			}
+			tabCondition: [{
+				questID: [ ]
+				entryConditionID: "ftbquestConditions"
+			}]
+			description: [ ]
+			shopTabUUID: [I;
+				123030404
+				2025016772
+				-1948146939
+				1021180739
+			]
+			title: "UHV"
+		}
+		{
+			tabEntry: [ ]
+			tabLimit: [ ]
+			icon: {
+				id: "minecraft:barrier"
+				Count: 1b
+			}
+			tabCondition: [{
+				questID: [ ]
+				entryConditionID: "ftbquestConditions"
+			}]
+			description: [ ]
+			shopTabUUID: [I;
+				-64592704
+				-2093596232
+				-2099500598
+				886385203
+			]
+			title: "UIV"
+		}
+		{
+			tabEntry: [ ]
+			tabLimit: [ ]
+			icon: {
+				id: "minecraft:barrier"
+				Count: 1b
+			}
+			tabCondition: [{
+				questID: [ ]
+				entryConditionID: "ftbquestConditions"
+			}]
+			description: [ ]
+			shopTabUUID: [I;
+				-741216369
+				-1529721334
+				-1097022244
+				920033987
+			]
+			title: "UXV"
+		}
+		{
+			tabEntry: [ ]
+			tabLimit: [ ]
+			icon: {
+				id: "minecraft:barrier"
+				Count: 1b
+			}
+			tabCondition: [{
+				questID: [ ]
+				entryConditionID: "ftbquestConditions"
+			}]
+			description: [ ]
+			shopTabUUID: [I;
+				-1089905629
+				-40153495
+				-1748416500
+				354115623
+			]
+			title: "OpV"
+		}
+		{
+			tabEntry: [ ]
+			tabLimit: [ ]
+			icon: {
+				id: "minecraft:barrier"
+				Count: 1b
+			}
+			tabCondition: [{
+				questID: [ ]
+				entryConditionID: "ftbquestConditions"
+			}]
+			description: [ ]
+			shopTabUUID: [I;
+				-584191996
+				-1081784349
+				-1099287574
+				1338630509
+			]
+			title: "MAX"
+		}
+	]
+}

@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "challenges"
+	group: "18FC63DE6192C85F"
+	icon: "gtceu:nan_certificate"
+	id: "3F0811C23EA3B149"
+	order_index: 0
+	quest_links: [ ]
+	quests: [ ]
+	title: "Challenges"
+}

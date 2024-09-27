@@ -1,0 +1,13 @@
+filename = 'gtceu-1.20.1-1.4.1+patch.2.jar'
+name = 'GregTechCEu Modern'
+side = 'both'
+
+[download]
+hash = '1b6f43aedf7941e23610b703b33c17131b8e7181e17c4aaf0b8ead9637fb85dedae946565c22c378ec9dfacec8898729699fb801e4fa3e69c13c9a46e4c27c92'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/7tG215v7/versions/LOtyrDbz/gtceu-1.20.1-1.4.1%2Bpatch.2.jar'
+
+[update.modrinth]
+mod-id = '7tG215v7'
+version = 'LOtyrDbz'

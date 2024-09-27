@@ -1,0 +1,13 @@
+filename = 'MoreCraftingTables-1.2.7+1.20.4-Forge.jar'
+name = 'More Crafting Tables (MCT)'
+side = 'both'
+
+[download]
+hash = 'bfe7552080b72724ed1e27c3edf7a5ce33d6df74b4b724072a2295c87862d3088a4a49ffee37c71ede6b00e3f2a9daa088ec54635ca04bb6b410f2b0336b3ae7'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/C5hwIsg1/versions/vk5JCgzw/MoreCraftingTables-1.2.7%2B1.20.4-Forge.jar'
+
+[update.modrinth]
+mod-id = 'C5hwIsg1'
+version = 'vk5JCgzw'

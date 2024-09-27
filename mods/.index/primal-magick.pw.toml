@@ -1,0 +1,13 @@
+filename = 'primalmagick-4.0.9.jar'
+name = 'Primal Magick'
+side = 'both'
+
+[download]
+hash = '971266c2a3af0c14937b426cf1a453318117c05ce6d7b618972aa5031c439ceff8d403ad8be070710635a16b473cf5f24a3c9362044714f6b2426d1b443882c2'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/VlgDBPBy/versions/wuqFbAJr/primalmagick-4.0.9.jar'
+
+[update.modrinth]
+mod-id = 'VlgDBPBy'
+version = 'wuqFbAJr'

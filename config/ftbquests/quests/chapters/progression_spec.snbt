@@ -1,0 +1,246 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "progression_spec"
+	group: "18FC63DE6192C85F"
+	icon: "gtceu:ingot_casting_mold"
+	id: "23963B5CC3A997B7"
+	images: [
+		{
+			height: 1.0d
+			image: "ad_astra:textures/painting/earth.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "ad_astra:textures/painting/moon.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: -5.0d
+		}
+		{
+			height: 1.0d
+			image: "ad_astra:textures/painting/mars.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: -6.0d
+		}
+		{
+			height: 1.0d
+			image: "ad_astra:textures/painting/mercury.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: -5.0d
+		}
+		{
+			height: 1.0d
+			image: "ad_astra:textures/painting/venus.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "ad_astra:textures/painting/glacio.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "ad_astra:textures/painting/neptune.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.0d
+			y: -4.0d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Welcome to the &3Material Chart&r, a place where you can view each major resource and what it is commonly used for."]
+			id: "7718427068558D56"
+			tasks: [{
+				id: "52C0AA163B6940A5"
+				title: "The Material Chart"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["75ACB4273BFAA018"]
+			id: "3067D3351E451D78"
+			tasks: [{
+				id: "33404D7C6CC7C099"
+				item: "gtceu:bronze_ingot"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3067D3351E451D78"]
+			id: "7C52C098E0C4C040"
+			tasks: [{
+				id: "7C37E665BCE1EC8C"
+				item: "gtceu:steel_ingot"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7C52C098E0C4C040"]
+			id: "4933A00FCD24312A"
+			tasks: [{
+				id: "0D7780837EF752CC"
+				item: "gtceu:aluminium_ingot"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4933A00FCD24312A"]
+			id: "192DE74F044A079D"
+			tasks: [{
+				id: "73A434585F62BE2C"
+				item: "gtceu:stainless_steel_ingot"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["192DE74F044A079D"]
+			id: "20AAC31C01C8736D"
+			tasks: [{
+				id: "0940B6BA7BC40854"
+				item: "gtceu:titanium_ingot"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["20AAC31C01C8736D"]
+			id: "28D4A4183C493F3D"
+			tasks: [{
+				id: "2F2EC717D0347441"
+				item: "gtceu:tungsten_steel_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["28D4A4183C493F3D"]
+			id: "78BD76D24864FAA9"
+			tasks: [{
+				id: "6850F2AB23CF3B93"
+				item: "gtceu:rhodium_plated_palladium_ingot"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["78BD76D24864FAA9"]
+			id: "5C9114E9093B4AE3"
+			tasks: [{
+				id: "708D627F020A6D67"
+				item: "gtceu:naquadah_ingot"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5C9114E9093B4AE3"]
+			id: "6C766C44F6FC32DF"
+			tasks: [{
+				id: "513BD6A1F245124A"
+				item: "gtceu:darmstadtium_ingot"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6C766C44F6FC32DF"]
+			id: "5783291BB62618A6"
+			tasks: [{
+				id: "7F5864FF5E07AE93"
+				item: "gtceu:neutronium_ingot"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1E10F2C5D36F42AE"]
+			id: "30F45344F5763AD1"
+			tasks: [{
+				id: "0F7D6A2A62ACABCA"
+				item: "gtceu:opv_machine_casing"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["338951BE7F91A32F"]
+			id: "1E10F2C5D36F42AE"
+			tasks: [{
+				id: "63EFA140CB86B07E"
+				item: "gtceu:uxv_machine_casing"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["457EF55A61EC2E16"]
+			id: "338951BE7F91A32F"
+			tasks: [{
+				id: "4BACFC8FA24C9659"
+				item: "gtceu:uiv_machine_casing"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5783291BB62618A6"]
+			id: "457EF55A61EC2E16"
+			tasks: [{
+				id: "4BCE4F477EA341E1"
+				item: "gtceu:uev_machine_casing"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			id: "75ACB4273BFAA018"
+			tasks: [{
+				id: "4F63526B757B800F"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+	]
+	title: "Material Chart"
+}

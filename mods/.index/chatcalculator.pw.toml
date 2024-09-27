@@ -1,0 +1,13 @@
+filename = 'ChatCalculator-Forge-1.6.0.jar'
+name = 'ChatCalculator'
+side = 'both'
+
+[download]
+hash = '1f8ffbc03e4b2ee3e8f37d0b69f5c7fc82d68e371453551431bf875c66c71e96ecfd60c706c22587f26a7da6f404b6956a76342b15eb79430a5394f4e33ce2e1'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/dGv7UYnq/versions/P0JSsrqi/ChatCalculator-Forge-1.6.0.jar'
+
+[update.modrinth]
+mod-id = 'dGv7UYnq'
+version = 'P0JSsrqi'
