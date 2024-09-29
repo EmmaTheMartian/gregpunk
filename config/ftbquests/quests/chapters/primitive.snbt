@@ -5,6 +5,14 @@
 	group: "430ECBC494532E2E"
 	icon: "minecraft:copper_ingot"
 	id: "138318D30BC7ECF9"
+	images: [{
+		height: 2.0d
+		image: "greg_paintings:textures/painting/gregoriustechnicities.png"
+		rotation: 0.0d
+		width: 2.0d
+		x: -2.0d
+		y: 0.0d
+	}]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -19,7 +27,7 @@
 			}]
 			title: "Hello, World!"
 			x: 0.0d
-			y: 0.0d
+			y: -2.0d
 		}
 		{
 			can_repeat: false
@@ -43,8 +51,8 @@
 				title: "The Shop"
 				type: "checkmark"
 			}]
-			x: -2.0d
-			y: 2.0d
+			x: 0.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["773C79EA2A0BA505"]
@@ -63,7 +71,7 @@
 			}]
 			title: "What happened to durability?"
 			x: 0.0d
-			y: 2.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["773C79EA2A0BA505"]
@@ -272,9 +280,9 @@
 		{
 			dependencies: ["138E74EE16F0B655"]
 			description: [
-				"Yes, there are a lot. These tools however will be your lifeblood for the foreseeable future. Take good care of them!"
+				"Yes, there are a lot, and yes, you will use ALL of them. These tools will be your lifeblood for the foreseeable future. Take good care of them!"
 				""
-				"&o&bThis quest accepts any tool from the tag, however I recommend using whatever is cheapest for you. Since durability is removed, you can stick with the same tools for the whole run if you so choose.&r"
+				"&bThis quest accepts any tool from the tag, however I recommend using whatever is cheapest for you. Since durability is removed, you can stick with the same tools for the whole run if you so choose.&r"
 			]
 			id: "13500D6CD44C91BE"
 			rewards: [{
@@ -456,6 +464,7 @@
 				item: "gtceu:copper_credit"
 				type: "item"
 			}]
+			shape: "gear"
 			subtitle: "Don't worry, the other Create recipes are just as fun."
 			tasks: [{
 				id: "58B06A0A26ED165F"
@@ -467,7 +476,11 @@
 		}
 		{
 			dependencies: ["20DFA02459039C57"]
-			description: ["Some machines use a Bronze Brick Casing, whilst others use a Steam Machine Casing. Thanks GregTech :D"]
+			description: [
+				"Some machines use a Bronze Brick Casing, whilst others use a Steam Machine Casing. Thanks GregTech :D"
+				""
+				"I would craft a few of each."
+			]
 			id: "523292623CC817D3"
 			rewards: [{
 				count: 2
@@ -475,6 +488,7 @@
 				item: "gtceu:copper_credit"
 				type: "item"
 			}]
+			shape: "gear"
 			subtitle: "Are you ready?"
 			tasks: [
 				{
@@ -513,7 +527,7 @@
 				type: "checkmark"
 			}]
 			title: "Craft in Batches!"
-			x: 0.0d
+			x: 2.0d
 			y: -2.0d
 		}
 		{
@@ -547,6 +561,161 @@
 			title: "Iron++"
 			x: -2.0d
 			y: 4.0d
+		}
+		{
+			dependencies: ["13500D6CD44C91BE"]
+			description: [
+				"&eMining Hammers&r can break blocks in a &d3x3 area&r. These will make early game mining MUCH easier."
+				""
+				"Similarly, &eGregTech Axes&r all can treechop axes."
+				""
+				"GregTech's axes and hoes unfortunately do not have a dedicated tag for them, so instead this quest just accepts *any* hoe or axe."
+			]
+			id: "5D2C766B1874F5FB"
+			rewards: [{
+				count: 4
+				id: "18CDD5B0B9DF5D6B"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
+			subtitle: "3x3 FTW"
+			tasks: [
+				{
+					id: "07D1184A2BD4B9EB"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(forge:tools/mining_hammers)"
+						}
+					}
+					title: "Any #forge:tools/mining_hammers"
+					type: "item"
+				}
+				{
+					id: "73D6FB4CACAA02EA"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:axes)"
+						}
+					}
+					title: "Any #minecraft:axes"
+					type: "item"
+				}
+				{
+					id: "2F42C769FAFB6AA4"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(forge:tools/spades)"
+						}
+					}
+					title: "Any #forge:tools/spades"
+					type: "item"
+				}
+				{
+					id: "01F4A2C33409D34A"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:hoes)"
+						}
+					}
+					title: "Any #minecraft:hoes"
+					type: "item"
+				}
+			]
+			title: "Excavation Tools"
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["773C79EA2A0BA505"]
+			description: ["In GregTech, ores have been COMPLETELY overhauled. They now spawn in huge veins of thousands of ores every 3 chunks. You can use the pebbles on the surface to determine what ores are beneth you without having to mine all the way down."]
+			id: "55054D658C911D48"
+			rewards: [{
+				id: "663316D5DD6D66FE"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
+			subtitle: "No more caving for hours!"
+			tasks: [{
+				id: "7B14FDDD4F81A766"
+				title: "Ore Veins"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["773C79EA2A0BA505"]
+			description: [
+				"FTB Quests recently changed what the scroll wheel does. It used to simply zoom in or out but now it actually scrolls. If you want to zoom you have to hold CTRL."
+				""
+				"If you dislike this, there is a gear button at the bottom right of the quest menu. In that, there is a setting to re-enable old scrolling controls."
+			]
+			id: "1EE7D3A02710CA1B"
+			rewards: [{
+				id: "315381176E06FFBB"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
+			subtitle: "Zooooooooom"
+			tasks: [{
+				id: "5E886C4BF358C6AA"
+				title: "Old Zoom Controls"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["13500D6CD44C91BE"]
+			description: [
+				"The &aPlunger&r can empty fluid buffers, which can be fairly helpful before you have a good fluid logistics system or trash cans."
+				""
+				"The &aCrowbar&r is used to remove covers from machines."
+			]
+			id: "44F7911B7DD2169E"
+			rewards: [{
+				id: "443E59F2B36AE972"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
+			subtitle: "Plunger Club <3"
+			tasks: [
+				{
+					id: "635120939C6F0335"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(forge:tools/plungers)"
+						}
+					}
+					title: "Any #forge:tools/plungers"
+					type: "item"
+				}
+				{
+					id: "4BEE06CF894BEF80"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(forge:tools/crowbars)"
+						}
+					}
+					title: "Any #forge:tools/crowbars"
+					type: "item"
+				}
+			]
+			title: "Additional Tools"
+			x: -6.0d
+			y: 2.0d
 		}
 	]
 	title: "Primitive Age"

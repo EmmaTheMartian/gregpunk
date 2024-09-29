@@ -5,8 +5,226 @@
 	group: "430ECBC494532E2E"
 	icon: "gtceu:steel_ingot"
 	id: "7822A7414E025995"
+	images: [{
+		height: 2.0d
+		image: "greg_paintings:textures/painting/tech.png"
+		rotation: 0.0d
+		width: 4.0d
+		x: -3.0d
+		y: 0.0d
+	}]
 	order_index: 2
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			id: "397B916ED3C64B52"
+			tasks: [{
+				id: "7926FF95D096DFC3"
+				title: "LV"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "36A98D4EE72BC34E"
+			tasks: [{
+				id: "0AECE280A2109D78"
+				item: "gtceu:prospector.lv"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			id: "05611A4F86051F47"
+			tasks: [{
+				id: "5B483CAE7232F548"
+				item: "gtceu:electric_blast_furnace"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"753F65FBBAB0A371"
+				"251A6EA7670D4AEE"
+			]
+			id: "345F3253DE7B51DD"
+			tasks: [{
+				id: "3D9900F2D32635C0"
+				item: "gtceu:good_electronic_circuit"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"05611A4F86051F47"
+				"12E319034EEDB850"
+			]
+			id: "47974EF49406CE2B"
+			tasks: [{
+				id: "3A68773B498F0F4A"
+				item: "gtceu:aluminium_ingot"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			id: "12E319034EEDB850"
+			tasks: [{
+				id: "329710F96E61482D"
+				item: "gtceu:aluminium_dust"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5E598580332691AD"]
+			id: "251A6EA7670D4AEE"
+			tasks: [{
+				id: "006EC63A31E5AE02"
+				item: "gtceu:phenolic_printed_circuit_board"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["29175340D332112A"]
+			id: "753F65FBBAB0A371"
+			tasks: [{
+				id: "3F46FC0F6A33F9E8"
+				item: "gtceu:diode"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			id: "29175340D332112A"
+			tasks: [{
+				id: "70FA703F6EBC0309"
+				item: "gtceu:lv_assembler"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["29175340D332112A"]
+			id: "5E598580332691AD"
+			tasks: [{
+				id: "5B44CB3B19183D68"
+				item: "gtceu:phenolic_circuit_board"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			id: "1A8E3A66D222433C"
+			tasks: [{
+				id: "6F0E690F11C2AB09"
+				item: "gtceu:lv_circuit_assembler"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["397B916ED3C64B52"]
+			id: "792E322871F3D134"
+			tasks: [{
+				id: "7B76EE6611D2E22B"
+				title: "Machinery"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["792E322871F3D134"]
+			id: "32F271BD34CA6B8B"
+			tasks: [{
+				id: "5879CE8F4EDC420E"
+				item: "gtceu:lv_lathe"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["792E322871F3D134"]
+			id: "129EA332B41D4DD5"
+			tasks: [{
+				id: "0092D65D345EBF93"
+				item: "gtceu:lv_polarizer"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["792E322871F3D134"]
+			id: "314195846808DD11"
+			tasks: [{
+				id: "746FFFC2AADB24B8"
+				item: "gtceu:lv_cutter"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["792E322871F3D134"]
+			id: "3023AF409F84A740"
+			tasks: [{
+				id: "25007B5F9956EE7D"
+				item: "gtceu:lv_alloy_smelter"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["792E322871F3D134"]
+			id: "2E4D01F5E098E716"
+			tasks: [{
+				id: "43DEB32ECBFB2FE4"
+				item: "gtceu:lv_bender"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["792E322871F3D134"]
+			id: "73B13DB950E1C351"
+			tasks: [{
+				id: "21CAA672CAB9ADE4"
+				item: "gtceu:lv_wiremill"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["792E322871F3D134"]
+			id: "0A2CB4A3909E3273"
+			tasks: [{
+				id: "3FCBAA5BCB260D1E"
+				item: "gtceu:lv_extractor"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+	]
 	title: "LV"
 }

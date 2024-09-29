@@ -1,13 +1,13 @@
-filename = 'sodiumdynamiclights-forge-1.0.2-1.20.1.jar'
+filename = 'sodiumdynamiclights-forge-1.0.8-1.20.1.jar'
 name = 'Sodium Dynamic Lights'
-side = 'client'
+side = 'both'
 
 [download]
-hash = 'c85aadf7eb101204ab5bf7659c6753a5d8c316587dfe623ebcfdda86e4df68dc33ce6b97997af562def22eee01a772db6b6f8ec82846c38957864660cf121e49'
+hash = 'c468bf607d27afb249b4507a890c082ca03ccd0e8ab04db7b35e69327227c6564b5cf8b2261f72fbc5ac4913edba4da6bd768d24499d4802d35acd708d0d6a92'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/PxQSWIcD/versions/KvkDc6wx/sodiumdynamiclights-forge-1.0.2-1.20.1.jar'
+url = 'https://cdn.modrinth.com/data/PxQSWIcD/versions/63Nxw7Hj/sodiumdynamiclights-forge-1.0.8-1.20.1.jar'
 
 [update.modrinth]
 mod-id = 'PxQSWIcD'
-version = 'KvkDc6wx'
+version = '63Nxw7Hj'

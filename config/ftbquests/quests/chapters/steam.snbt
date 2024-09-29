@@ -5,6 +5,14 @@
 	group: "430ECBC494532E2E"
 	icon: "gtceu:bronze_ingot"
 	id: "34F9E62C8A6485E5"
+	images: [{
+		height: 2.0d
+		image: "greg_paintings:textures/painting/copper.png"
+		rotation: 0.0d
+		width: 2.6666666666666665d
+		x: -4.0d
+		y: -2.0d
+	}]
 	order_index: 1
 	quest_links: [ ]
 	quests: [
@@ -13,6 +21,7 @@
 				"7E9DCE28B226BBFC"
 				"6AFC2E5F0A6B744F"
 				"21C20A637361128E"
+				"6F83DF835AE9D435"
 			]
 			description: ["Seriously. Batch craft these. Lots of them."]
 			id: "7B5C0EE4BC8BFB13"
@@ -44,8 +53,8 @@
 				item: "gtceu:resin_printed_circuit_board"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -2.0d
+			x: 5.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -79,7 +88,7 @@
 				item: "gtceu:resistor"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 7.0d
 			y: 0.0d
 		}
 		{
@@ -106,6 +115,7 @@
 		}
 		{
 			dependencies: ["475304DF6747DD81"]
+			description: [""]
 			id: "1CD311C86D711DFF"
 			rewards: [{
 				id: "05C6BAAC3D34A93E"
@@ -138,6 +148,7 @@
 		}
 		{
 			dependencies: ["475304DF6747DD81"]
+			description: ["Harnessing the power of the sun to produce free steam is quite appealing to most. I would strongly advise investing in some of these."]
 			id: "37420F9C2A540398"
 			rewards: [{
 				id: "6B1E82E6B9FDE4BF"
@@ -235,8 +246,8 @@
 				item: "gtceu:lp_steam_macerator"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 0.5d
+			x: -3.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["4F9AE5B056087A7D"]
@@ -251,8 +262,8 @@
 				item: "gtceu:lp_steam_furnace"
 				type: "item"
 			}]
-			x: -5.0d
-			y: 1.0d
+			x: -2.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["4F9AE5B056087A7D"]
@@ -267,11 +278,12 @@
 				item: "gtceu:lp_steam_rock_crusher"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 3.5d
+			x: -5.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["4F9AE5B056087A7D"]
+			description: [""]
 			id: "1DBF975A84DBBC00"
 			rewards: [{
 				id: "2F272CB2BBD9EA2E"
@@ -283,8 +295,8 @@
 				item: "gtceu:steam_miner"
 				type: "item"
 			}]
-			x: -5.0d
-			y: 3.0d
+			x: -4.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["4F9AE5B056087A7D"]
@@ -299,35 +311,39 @@
 				item: "gtceu:steam_grinder"
 				type: "item"
 			}]
-			x: -5.0d
-			y: 2.0d
+			x: -4.5d
+			y: 0.0d
 		}
 		{
+			dependencies: ["4F9AE5B056087A7D"]
 			id: "2D82E4C0F1224ACF"
 			tasks: [{
 				id: "21DAAA19C649392E"
 				item: "gtceu:steam_oven"
 				type: "item"
 			}]
-			x: -4.0d
-			y: -2.0d
+			x: -3.5d
+			y: 0.0d
 		}
 		{
+			dependencies: ["7B5C0EE4BC8BFB13"]
 			id: "0FFD52FE7827AFF0"
 			tasks: [{
 				id: "579B19EF2AD24BA3"
 				item: "gtceu:bronze_large_boiler"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -2.0d
+			x: 9.0d
+			y: 4.0d
 		}
 		{
+			dependencies: ["475304DF6747DD81"]
 			description: [
 				"You can get &6Sticky Resin&r from &aRubber Trees&r or by smelting &aSlime Balls&r."
 				""
 				"If you have had bad luck finding one of these, you can purchase Rubber Tree Saplings from the Primitive Age Shop."
 			]
+			hide_dependency_lines: true
 			id: "0BC03E75FA1D477F"
 			rewards: [{
 				id: "26C6EB39A1C80D61"
@@ -428,7 +444,7 @@
 				title: "Fringe Machines"
 				type: "checkmark"
 			}]
-			x: -3.0d
+			x: -4.0d
 			y: 2.0d
 		}
 		{
@@ -445,7 +461,7 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: 4.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["7626312D2E0EA304"]
@@ -462,7 +478,7 @@
 				type: "item"
 			}]
 			x: 11.0d
-			y: 2.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["1182B78A04127B47"]
@@ -471,16 +487,21 @@
 				""
 				"You can either upgrade your factory to use HP machines, or you can powr through to LV."
 				""
-				"Note that for your power generation in LV, having HP generators will be extremely useful."
+				"Note that for your power generation in LV (and even MV!), having HP generators will be extremely useful."
 			]
 			id: "5A676581BC8E5C29"
+			rewards: [{
+				id: "15F7AD95F3C4B167"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2DC2B54DC0B8AF6F"
 				item: "gtceu:steel_brick_casing"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 9.0d
+			x: 9.5d
+			y: 10.0d
 		}
 		{
 			dependencies: ["5A676581BC8E5C29"]
@@ -495,8 +516,8 @@
 				item: "gtceu:hp_steam_solid_boiler"
 				type: "item"
 			}]
-			x: 4.5d
-			y: 8.0d
+			x: 8.5d
+			y: 12.5d
 		}
 		{
 			dependencies: ["5A676581BC8E5C29"]
@@ -511,8 +532,8 @@
 				item: "gtceu:hp_steam_liquid_boiler"
 				type: "item"
 			}]
-			x: 4.5d
-			y: 9.0d
+			x: 7.5d
+			y: 12.0d
 		}
 		{
 			dependencies: ["5A676581BC8E5C29"]
@@ -527,8 +548,8 @@
 				item: "gtceu:hp_steam_solar_boiler"
 				type: "item"
 			}]
-			x: 4.5d
-			y: 10.0d
+			x: 7.0d
+			y: 11.0d
 		}
 		{
 			dependencies: ["5A676581BC8E5C29"]
@@ -543,8 +564,8 @@
 				item: "gtceu:hp_steam_extractor"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 6.5d
+			x: 10.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["5A676581BC8E5C29"]
@@ -559,8 +580,8 @@
 				item: "gtceu:hp_steam_macerator"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 7.0d
+			x: 11.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["5A676581BC8E5C29"]
@@ -575,8 +596,8 @@
 				item: "gtceu:hp_steam_compressor"
 				type: "item"
 			}]
-			x: 9.5d
-			y: 8.0d
+			x: 12.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["5A676581BC8E5C29"]
@@ -591,8 +612,8 @@
 				item: "gtceu:hp_steam_forge_hammer"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 11.5d
+			x: 10.5d
+			y: 12.5d
 		}
 		{
 			dependencies: ["5A676581BC8E5C29"]
@@ -607,8 +628,8 @@
 				item: "gtceu:hp_steam_furnace"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 11.0d
+			x: 11.5d
+			y: 12.0d
 		}
 		{
 			dependencies: ["5A676581BC8E5C29"]
@@ -623,8 +644,8 @@
 				item: "gtceu:hp_steam_alloy_smelter"
 				type: "item"
 			}]
-			x: 9.5d
-			y: 10.0d
+			x: 12.0d
+			y: 11.0d
 		}
 		{
 			dependencies: ["5A676581BC8E5C29"]
@@ -639,8 +660,390 @@
 				item: "gtceu:hp_steam_rock_crusher"
 				type: "item"
 			}]
-			x: 9.5d
+			x: 12.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["1182B78A04127B47"]
+			description: [
+				"&aAndesite Casings&r will be used for every machine in &9Create&r, so be prepared to craft lots."
+				""
+				"You may notice that &aWater Wheels&r, &aLarge Water Wheels&r, &aSteam Engines&r, &oand&r &aWindmill Bearings&r are ALL gated heavily. Passive energy sources are overpowered anyway."
+				""
+				"To start generating &dStress Units&r, you will need a &6Steam Rotational Turbine&r multiblock. I &lhighly&r recommend getting &3High Pressure&r steam generators or a large boiler for this."
+			]
+			id: "4533EB2C7EBCE52A"
+			rewards: [{
+				id: "7EC8B10BD8093C0C"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4CFB710E9237C47C"
+				item: "create:andesite_casing"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["4533EB2C7EBCE52A"]
+			description: [
+				"I hope you have good steel production..."
+				""
+				"The &cSteam Rotational Turbine&r allows you to consume &aSteam&r to produce &d2048 Stress Units&r."
+				""
+				"Make sure you have lots of steam generators and a good buffer. The SRT will guzzle steam!"
+				""
+				"&o&bPro Tip: You have two options for fast steel right now. Either many wallshared PBFs on Iron and Coke or construct a High Pressure Blast Furnace&r.&r"
+			]
+			icon: "gtceu:steam_rotational_turbine"
+			id: "6CABE2A334957290"
+			rewards: [{
+				count: 4
+				id: "5059D925A566248F"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
+			subtitle: "Professional Steam Guzzler"
+			tasks: [
+				{
+					count: 9L
+					id: "42AB4C45CC1B13D5"
+					item: { Count: 9, id: "gtceu:steel_firebox_casing" }
+					type: "item"
+				}
+				{
+					id: "7B40440AB35290B2"
+					item: "gtceu:lv_input_hatch"
+					type: "item"
+				}
+				{
+					id: "577A71D52C8B8A3E"
+					item: "gtceu:lv_kinetic_output_box"
+					type: "item"
+				}
+				{
+					count: 22L
+					id: "51ECC7CBE9897DA4"
+					item: { Count: 22, id: "gtceu:solid_machine_casing" }
+					type: "item"
+				}
+				{
+					id: "4248340288834657"
+					item: "gtceu:steam_rotational_turbine"
+					type: "item"
+				}
+			]
+			title: "Steam Rotational Turbine"
+			x: 2.5d
 			y: 9.0d
+		}
+		{
+			dependencies: ["4533EB2C7EBCE52A"]
+			description: ["Many &9Create&r machines have had some recipes tweaked or removed so that you cannot simply skip the fun of &aGregTech.&r However, there are many benefits to using &9Create.&r For example, bulk processing is made significantly faster via &9Create.&r It can also allow you to get some basic automation lines going as early as the steam age!"]
+			id: "23E03EFD0B3C4A1E"
+			tasks: [{
+				id: "2F283CCD80B3B2B1"
+				title: "Create Machinery"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["23E03EFD0B3C4A1E"]
+			description: ["The &dMechanical Press&r is capable of pressing soft metals into plates at a &61:1 ratio&r. Although the initial investment may be expensive, it will be beyond useful in the future."]
+			id: "6CC77DBAF806C1D0"
+			rewards: [{
+				id: "2283443C3E09628A"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1D1ADBC49B2233AD"
+				item: "create:mechanical_press"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["23E03EFD0B3C4A1E"]
+			description: ["The &dMechanical Mixer&r can mix fluids, shapeless recipes, and some very soft alloys together."]
+			id: "56059CC187BF53C8"
+			rewards: [{
+				id: "3F177015730620CF"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "05F6A6F2B782F3D5"
+				item: "create:mechanical_mixer"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["23E03EFD0B3C4A1E"]
+			description: ["The &dMechanical Drill&r can break blocks! That's basically it. Use it for your cobblestone farms or smoething."]
+			id: "5CB41DBB4713C0F4"
+			rewards: [{
+				id: "147820A1E664DA59"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3AADA60621533389"
+				item: "create:mechanical_drill"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["23E03EFD0B3C4A1E"]
+			description: ["The &dMechanical Saw&r is one of the most useful machines (in my opinion) in Create. Tree farms can fuel a &dCoke Oven&r to then efficiently fuel whatever else you need it to."]
+			id: "59ED7C72329A98B1"
+			rewards: [{
+				id: "4BE07DEE6EE2AC0A"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "49881F96CD1C1F12"
+				item: "create:mechanical_saw"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["23E03EFD0B3C4A1E"]
+			description: ["&dMechanical Harvesters&r can harvest and replant crops, which probably sounds mostly useless as of now, but that may change at some point."]
+			id: "1E59E4509F9253EF"
+			rewards: [{
+				id: "53ACC63545F153F2"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "79937F48BF09CF5E"
+				item: "create:mechanical_harvester"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["23E03EFD0B3C4A1E"]
+			description: ["&dMechanical Crafters&r enable very easy autocrafting. Though obtaining the crafters may turn out to be... slightly difficult right now..."]
+			id: "70018672D8A5EDAF"
+			rewards: [{
+				id: "1C5CDCE7968E766F"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3B9F1F9665292F09"
+				item: "create:mechanical_crafter"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["23E03EFD0B3C4A1E"]
+			description: [
+				"&dMechanical Arms&r are OBJECTIVELY the coolest thing in Create."
+				""
+				"Change my mind. I dare you."
+			]
+			id: "24354AC8F73D9577"
+			rewards: [{
+				id: "266CF75A610EE06F"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
+			subtitle: "Grabby Grabby!"
+			tasks: [{
+				id: "73799A6B478BEBC6"
+				item: "create:mechanical_arm"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["23E03EFD0B3C4A1E"]
+			description: ["&dDrilling Machines&r can mine ores from... somewhere? Nobody exactly knows. Either way, they are quite effective at their jobs!"]
+			id: "025133F482C7DA2C"
+			rewards: [{
+				id: "775AEB3577B66644"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2980AB97704DE01B"
+				item: "createoreexcavation:drilling_machine"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"0BC03E75FA1D477F"
+				"403644584B0ABEDC"
+				"4D5CC3F49A4E2BD9"
+			]
+			id: "2F2F208D22772DAA"
+			rewards: [{
+				id: "6E2BBB88D56FAE54"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4F44A2C662576259"
+				item: "gtceu:rubber_ingot"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["005128038DFC032A"]
+			description: [""]
+			id: "4D5CC3F49A4E2BD9"
+			rewards: [{
+				id: "27C58C2C238466EC"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1571CF096863E035"
+				item: "gtceu:sulfur_dust"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["475304DF6747DD81"]
+			description: ["To obtain &eSulfur&r to make &6Rubber&r, you will need to visit the &4Nether&r. Good luck! :D"]
+			hide_dependency_lines: true
+			id: "005128038DFC032A"
+			rewards: [{
+				count: 2
+				id: "024A66D35FCA0115"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "226F57C5A2C77223"
+				type: "dimension"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"49B715ADA164C0EF"
+				"72A3AB069188E9A0"
+			]
+			description: ["You will need LOTS of Tin Cables in crafting and to move electricity. I advise bulk crafting them."]
+			id: "6F83DF835AE9D435"
+			rewards: [{
+				id: "0D2AD5CE520FD30E"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0773ADA512ACAE36"
+				item: "gtceu:tin_single_cable"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["475304DF6747DD81"]
+			description: [
+				"Wires are used in crafting and can transport electricity. However, wires have two notes you should be aware of:"
+				""
+				"1. Wires and cables both have \"power loss.\" Wires and cables you place will &close one volt of power per block&r, so make sure to keep things dense if you are not generating lots of electricity yet."
+				"2. Wires are &cuninsulated and will hurt you if you step on them&r. The higher the voltage, the more damage. Cables however are insulated, so they will not damage you."
+			]
+			hide_dependency_lines: true
+			id: "49B715ADA164C0EF"
+			rewards: [{
+				id: "6A8D6ABF2F087C1D"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1F4F5A35688F761A"
+				item: "gtceu:tin_single_wire"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2F2F208D22772DAA"]
+			description: ["&9Rubber Sheets&r are used in crafting cables. You will need an &aAlloy Smelter&r with a &ePlate Mold&r and two &eRubber Bars&r per one sheet. Don't worry, this recipe will get cheaper in the future."]
+			id: "72A3AB069188E9A0"
+			rewards: [{
+				id: "6C1F2049D51327F2"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7EFDAA92B5D3731C"
+				item: "gtceu:rubber_plate"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4533EB2C7EBCE52A"]
+			description: [
+				"To get a jumpstart on some of the smaller &aCreate&r machinery, you can use a &aHandcrank&r."
+				""
+				"Hint: If you want fast steel production, I recommend getting a &aHandcrank&r and an &aEncased Fan&r with &6Lava&r. Then &eBulk Blast&r lots and lots of &bIron Nuggets&r for &dWrought Iron Nuggets&r to blast into &dSteel&r."
+			]
+			id: "2B86E8FCC23B75DF"
+			rewards: [{
+				id: "7847B5C8756EBA23"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
+			subtitle: "Professional Hunger Drainer"
+			tasks: [{
+				id: "20CCCDEC1C44E720"
+				item: "create:hand_crank"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"7B5C0EE4BC8BFB13"
+				"335CCB24CE2C6F76"
+			]
+			id: "4F5C400A7A0D0FFF"
+			shape: "gear"
+			tasks: [{
+				id: "7AD1497A11762CD4"
+				item: "gtceu:lv_steam_turbine"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 2.0d
 		}
 	]
 	title: "Steam Age"

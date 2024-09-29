@@ -12,7 +12,7 @@
     "detectDimensionData": true,
     "detectWorldData": true,
     "clientId": "450485984333660181",
-    "defaultIcon": "grass",
+    "defaultIcon": "logo",
     "enableJoinRequests": false,
     "preferredClientLevel": 3,
     "resetTimeOnInit": false,
@@ -117,9 +117,9 @@
       "partyPrivacy": 1,
       "details": "{getFirst(menu.message, dimension.message)}",
       "gameState": "{getOrDefault(server.message)} {getOrDefault(pack.name)}",
-      "largeImageKey": "{getFirst(menu.icon, dimension.icon)}",
+      "largeImageKey": "logo",
       "largeImageText": "{getFirst(menu.message, dimension.message)}",
-      "smallImageKey": "{getFirst(server.icon, pack.icon)}",
+      "smallImageKey": "",
       "smallImageText": "{getOrDefault(server.message)} {getOrDefault(pack.name)}",
       "startTimestamp": "{data.general.time}",
       "endTimestamp": "",
@@ -132,8 +132,8 @@
     },
     "dynamicIcons": {
       "EmmaTheMartian": "https://mc-heads.net/avatar/b4233b0965f840379b37cf5c1b2be13c",
-      "default": "https://via.placeholder.com/256.png",
-      "Emmers": "https://mc-heads.net/avatar/b4233b0965f840379b37cf5c1b2be13c"
+      "logo": "https://raw.githubusercontent.com/EmmaTheMartian/gregpunk/refs/heads/main/icon.png",
+      "default": "https://via.placeholder.com/256.png"
     },
     "dynamicVariables": {
       "default": "Example Text",

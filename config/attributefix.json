@@ -33,6 +33,17 @@
         "value": 64
       }
     },
+    "reach-entity-attributes:reach": {
+      "enabled": false,
+      "min": {
+        "default": -1024,
+        "value": -1024
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
     "forge:entity_gravity": {
       "enabled": false,
       "min": {
@@ -295,6 +306,17 @@
       "max": {
         "default": 20,
         "value": 1000000
+      }
+    },
+    "reach-entity-attributes:attack_range": {
+      "enabled": false,
+      "min": {
+        "default": -1024,
+        "value": -1024
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
       }
     }
   }

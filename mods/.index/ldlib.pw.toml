@@ -1,13 +1,13 @@
-filename = 'ldlib-forge-1.20.1-1.0.28.b.jar'
-name = 'LDLib'
+filename = 'ldlib-forge-1.20.1-1.0.28.d.jar'
+name = 'LowDragLib'
 side = 'both'
 
 [download]
-hash = '8c639af8edbd15d3d7c3fa2f46033681820f71643d9e4de2b3ee3380ad3e67bd47840871b47cacd4334163a175a17c9ee9ac007f3a1b32a0ee78eb540a10c317'
+hash = '321a49dcc2217d6a25e0f76f51f4376d6d37623e31227c2b57c1edfc2e35d0f68c6e25da71ff60a1e093e9d8617f9eb263e84e327c57c64eec591b2ea977264a'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/B1CBVXHX/versions/OremweZY/ldlib-forge-1.20.1-1.0.28.b.jar'
+url = 'https://cdn.modrinth.com/data/B1CBVXHX/versions/uuwPIaRd/ldlib-forge-1.20.1-1.0.28.d.jar'
 
 [update.modrinth]
 mod-id = 'B1CBVXHX'
-version = 'OremweZY'
+version = 'uuwPIaRd'

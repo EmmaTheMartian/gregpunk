@@ -1,0 +1,13 @@
+filename = 'flatbedrock-forge-3.0.1-build.18+mc1.20.1.jar'
+name = 'Flat Bedrock'
+side = 'server'
+
+[download]
+hash = 'b800b59b82bc16d416a1d2985dd6f6ed590386b1876848bf87c3055fab758cad85906c95b2e3e070de47d9150f4d9b4bd73fd370ddda267308223e715788ac4f'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/ZYLnkiVu/versions/PpXxqWu6/flatbedrock-forge-3.0.1-build.18%2Bmc1.20.1.jar'
+
+[update.modrinth]
+mod-id = 'ZYLnkiVu'
+version = 'PpXxqWu6'

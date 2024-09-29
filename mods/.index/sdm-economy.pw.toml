@@ -1,13 +1,13 @@
-filename = 'sdm_economy-forge-1.20.1-1.6.0.jar'
-name = 'SDM  Economy [Forge/Fabric]'
+filename = 'sdm_economy-forge-1.20.1-1.6.1.jar'
+name = 'SDM Economy'
 side = 'both'
 
 [download]
-hash = '645b08a5699ea44b6253e26e95cc9cefe065c5d0'
+hash = 'e62642cef3b7006cec14bdf0be5a8f94e677c567'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 5749014
+file-id = 5749819
 project-id = 1102542

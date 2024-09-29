@@ -2,6 +2,9 @@
 	# Default: false
 	disable_key_bind: false
 	
+	# Default: true
+	send_notify: true
+	
 	# Default: "modern"
 	# Valid values: "legacy", "modern"
 	"Shop Style": "modern"

@@ -1,0 +1,13 @@
+filename = 'Shimmer-forge-1.20.1-0.2.4.jar'
+name = 'Shimmer'
+side = 'client'
+
+[download]
+hash = 'c67b5bac7e981345818b196ea24cd367d42b3329108ad5aca1c33648c0527572785728de526b905f0ae779e38dd476a0846041f02dfb64a844f632986f8709ab'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/uBKACKpl/versions/za2dJzYV/Shimmer-forge-1.20.1-0.2.4.jar'
+
+[update.modrinth]
+mod-id = 'uBKACKpl'
+version = 'za2dJzYV'

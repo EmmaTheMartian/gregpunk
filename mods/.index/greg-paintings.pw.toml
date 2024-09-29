@@ -1,0 +1,13 @@
+filename = 'greg_paintings-1.0.0-forge-1.20.1.jar'
+name = 'greg paintings'
+side = 'both'
+
+[download]
+hash = '79efd9b0decd49b4241d7767064ce83dabfe95ed400e3c2cb38128c80be7558cd7217c5dc0329d8b313348075489bf9734643a0ea8550c42dac6446df3fa6e12'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/QPr99KqY/versions/xrzegfmw/greg_paintings-1.0.0-forge-1.20.1.jar'
+
+[update.modrinth]
+mod-id = 'QPr99KqY'
+version = 'xrzegfmw'

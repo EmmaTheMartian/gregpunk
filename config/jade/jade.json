@@ -20,8 +20,8 @@
     "previewOverlay": true
   },
   "overlay": {
-    "alpha": 0.4,
-    "iconMode": "HIDE",
+    "alpha": 0.5,
+    "iconMode": "CENTERED",
     "animation": true,
     "disappearingDelay": 0.0,
     "overlaySquare": true,
